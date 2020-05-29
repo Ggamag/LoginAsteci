@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div style="margin-top:10px;margin-left:5px;">
+    <h3>Catalogo de usuarios</h3>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Editar usuarios</div>
+            <div class="panel-body">
+                <div>
+                    <div class="col-md-12">
+                        <label>Usuario</label>
+                        <input type="text" id="TxtLogin" class="form-control" disabled="disabled" />
+                        <input type="hidden" id="IdUser" />
+                        <label>Nombre</label>
+                        <input type="text" id="TxtName" class="form-control" disabled="disabled" />
+                        <label>Apellido</label>
+                        <input type="text" id="TxtLast" class="form-control" disabled="disabled" />
+                        <label>Correo</label>
+                        <input type="text" id="TxtMail" class="form-control" disabled="disabled" />
+                        <label>Telefono</label>
+                        <input type="text" id="TxtPhone" class="form-control" disabled="disabled" />
+                        <label>Contraseña</label>
+                        <input type="password" id="TxtPass" class="form-control" disabled="disabled" />
+                        <label>Activo</label>
+                        <input type="checkbox" id="TxtACt" class="checkbox" disabled="disabled" />
+                        <br />
+                    </div>
+                    <div class="col-md-offset-6 col-md-6">
+                        <input type="button" id="BtnSave" class="btn btn-primary btn-block" value="Guardar" disabled="disabled" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">Usuarios</div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table id="DTUser" class="table table-hover table-warning">
+                        <thead>
+                            <tr>
+                                <th>Usuario</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Correo</th>
+                                <th>Telefono</th>
+                                <th>Activo</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<link href="~/Content/sweetalert/sweet-alert.css" rel="stylesheet" />
+<script src="~/Content/sweetalert/sweetalert.min.js"></script>
+<script src="~/JSPage/UsersJS.js"></script>
+
+

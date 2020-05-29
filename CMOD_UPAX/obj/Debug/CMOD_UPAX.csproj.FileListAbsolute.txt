@@ -1,0 +1,6 @@
+C:\Projects\MVC\CMOD_UPAX\bin\Debug\CMOD_UPAX.dll
+C:\Projects\MVC\CMOD_UPAX\bin\Debug\CMOD_UPAX.pdb
+C:\Projects\MVC\CMOD_UPAX\obj\Debug\CMOD_UPAX.csprojAssemblyReference.cache
+C:\Projects\MVC\CMOD_UPAX\obj\Debug\CMOD_UPAX.csproj.CoreCompileInputs.cache
+C:\Projects\MVC\CMOD_UPAX\obj\Debug\CMOD_UPAX.dll
+C:\Projects\MVC\CMOD_UPAX\obj\Debug\CMOD_UPAX.pdb
